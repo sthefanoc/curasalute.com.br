@@ -11,66 +11,44 @@ class Menu extends Component {
             <>
                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
-                        <li class="dropdown"><Link to={'/index-2'}>Home</Link>
+                        <li class="dropdown"><Link to={'/'}>Início</Link>
                             <ul>
-                                <li><Link to={'/#'}>Home page 01</Link></li>
-                                <li><Link to={'/index-2'}>Home page 02</Link></li>
-                                <li><Link to={'/index-3'}>Home page 03</Link></li>
-                                <li><Link to={'/index-4'}>Home page 04</Link></li>
-                                <li><Link to={'/onepage'}>Onepage Version</Link></li>
-                                <li><Link to={'/rtl-home'}>Home RTL</Link></li>
-                                <li class="dropdown"><Link to={'/#'}>Header Styles</Link>
+                                <li><Link to={'/'}>Link 01</Link></li>
+                                <li><Link to={'/'}>Link 02</Link></li>
+                                <li><Link to={'/'}>Link 03</Link></li>
+                                <li><Link to={'/'}>Link 04</Link></li>
+                                <li class="dropdown"><Link to={'/'}>Sub links</Link>
                                     <ul>
-                                        <li><Link to={'/'}>Header Style One</Link></li>
-                                        <li><Link to={'/index-2'}>Header Style Two</Link></li>
-                                        <li><Link to={'/index-3'}>Header Style Three</Link></li>
-                                        <li><Link to={'/index-4'}>Header Style Four</Link></li>
+                                        <li><Link to={'/'}>Sub link 01</Link></li>
+                                        <li><Link to={'/index-2'}>Sub link 02</Link></li>
+                                        <li><Link to={'/index-3'}>Sub link 03</Link></li>
+                                        <li><Link to={'/index-4'}>Sub link 04</Link></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li><Link to={'/about'}>About Us</Link></li>
-                        <li class="dropdown"><Link to={'/#'}>Services</Link>
+                        <li><Link to={'/#sobre-nos'}>Sobre nós</Link></li>
+                        <li class="dropdown"><Link to={'/#servicos'}>Serviços</Link>
                             <ul>
-                                <li><Link to={'/services-1'}>Services One</Link></li>
-                                <li><Link to={'/services-2'}>Services Two</Link></li>
-                                <li><Link to={'/services-details'}>Services Details</Link></li>
+                                <li><Link to={'/#'}>Serviços 01</Link></li>
+                                <li><Link to={'/#'}>Serviços 02</Link></li>
+                                <li><Link to={'/#'}>Serviços 03</Link></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><Link to={'/#'}>Portfolio</Link>
+                        
+                        <li class="dropdown"><Link to={'/#'}>Blog</Link>
                             <ul>
-                                <li><Link to={'/portfolio-1'}>Portfolio One</Link></li>
-                                <li><Link to={'/portfolio-2'}>Portfolio Two</Link></li>
-                                <li><Link to={'/portfolio-details'}>Portfolio Details</Link></li>
+                                <li><Link to={'/#'}>Posts Recentes</Link></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><Link to={'/#'}>News</Link>
+                        <li class="dropdown"><Link to={'/#'}>Páginas</Link>
                             <ul>
-                                <li><Link to={'/blog-grid'}>Blog Grid</Link></li>
-                                <li><Link to={'/blog-standard'}>Blog Standard</Link></li>
-                                <li><Link to={'/blog-details'}>Blog Details</Link></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><Link to={'/#'}>Pages</Link>
-                            <ul>
-                                <li><Link to={'/careers'}>Careers</Link></li>
-                                <li><Link to={'/team'}>Team</Link></li>
-                                <li><Link to={'/team-details'}>Team Details</Link></li>
-
-                                <li class="dropdown"><Link to={'/#'}>Shop</Link>
-                                    <ul>
-                                        <li><Link to={'/shop'}>Products</Link></li>
-                                        <li><Link to={'/product-details'}>Product Details</Link></li>
-                                        <li><Link to={'/shopping-cart'}>Shopping Cart</Link></li>
-                                        <li><Link to={'/checkout'}>Checkout</Link></li>
-                                    </ul>
-                                </li>
-                                <li><Link to={'/faq'}>Faq's</Link></li>
-                                <li><Link to={'/404'}>404</Link></li>
+                                <li><Link to={'/#'}>Nosso Time</Link></li>
+                                <li><Link to={'/#'}>Trabalhe Conosco</Link></li>
                             </ul>
                         </li>
 
-                        <li><Link to={'/contact'}>Contact</Link></li>
+                        <li><Link to={'/#contato'}>Contato</Link></li>
                     </ul>
                 </div>
 

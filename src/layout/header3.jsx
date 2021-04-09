@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import Menu from './menu'
-import logo from '../assets/images/logo.png'
-import stickyLogo from '../assets/images/sticky-logo-3.png'
+// import logo from '../assets/images/logo.png'
+import logoBranco from '../assets/images/cura-salute-branco.png'
+import logoColorido from '../assets/images/cura-salute-cores.png'
 
 
 
@@ -82,8 +83,8 @@ class Header3 extends Component {
                                 <div class="nav-outer clearfix">
                                     {/* <!--Logo--> */}
                                     <div class="logo-box">
-                                        <div class="logo"><Link to={'/index-2'}>
-                                            <img src={logo} alt="" /></Link></div>
+                                        <div class="logo"><Link to={'/'}>
+                                            <img src={logoBranco} alt="Cura Salute Logo" /></Link></div>
                                     </div>
                                     {/* <!--Sidemenu Navigation Toggler--> */}
                                     <div class="sidemenu-nav-toggler"><span class="icon fal fa-bars"></span></div>
@@ -118,7 +119,7 @@ class Header3 extends Component {
                         <div class="auto-container clearfix">
                             {/* <!--Logo--> */}
                             <div class="logo pull-left">
-                                <Link to={'/index-2'} title=""><img src={stickyLogo} alt="" title="" /></Link>
+                                <Link to={'/'} title=""><img src={logoColorido} alt="" title="" /></Link>
                             </div>
                             {/* <!--Right Col--> */}
                             <div class="pull-right">
@@ -138,7 +139,7 @@ class Header3 extends Component {
                         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                         <nav class="menu-box">
-                            <div class="nav-logo"><Link to={'/index-2'}><img src={logo} alt="" title="" /></Link></div>
+                            <div class="nav-logo"><Link to={'/index-2'}><img src={logoBranco} alt="" title="" /></Link></div>
                             <div class="menu-outer">
                             <Menu />
                             </div>

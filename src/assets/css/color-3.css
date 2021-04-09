@@ -113,7 +113,8 @@
 .tab-btn-style-one .nav-item .nav-link.active,
 .service-block-one .icon .round-shape:after,
 .sticky-header .main-menu .navigation > li.current-menu-item > a {
-	background-color: #64a547;
+	/* background-color: #64a547; */
+    background-color: #6ED9A1;
 }
 
 .btn-style-one .btn-title:before {

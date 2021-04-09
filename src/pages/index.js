@@ -35,6 +35,7 @@ import map1 from './../assets/images/shape/shape-6.png';
 import ctabg1 from './../assets/images/background/image-10.jpg';
 
 import logoDark from '../assets/images/logo-dark.png';
+import logoColorido from '../assets/images/cura-salute-cores.png';
 import News10 from '../assets/images/resource/news-10.jpg';
 import News11 from '../assets/images/resource/news-11.jpg';
 import Icon19 from '../assets/images/icons/icon-19.png';
@@ -45,7 +46,6 @@ import Image4 from '../assets/images/resource/image-4.jpg';
 import News1 from '../assets/images/resource/news-1.jpg';
 import News2 from '../assets/images/resource/news-2.jpg';
 import News3 from '../assets/images/resource/news-3.jpg';
-
 
 class Index3 extends Component {
   render() {
@@ -60,36 +60,36 @@ class Index3 extends Component {
               <span class='flaticon-cancel'></span>
             </div>
             <div class='logo'>
-              <Link to={'/#'}>
-                <img src={logoDark} alt='' />
+              <Link to={'/'}>
+                <img src={logoColorido} alt='' />
               </Link>
             </div>
             <div class='content'>
               <div class='about-widget-two sidebar-widget'>
                 <h3>
-                  Smart Business Consultancy <br />
-                  in New Milton
+                  Consultoria em benefícios <br />
+                  para todo Brasil
                 </h3>
                 <div class='text'>
-                  We denounce with righteous indignation and dislike men who we
-                  are to beguiled demoralized by the charms of pleasures that
-                  moment, so we blinded desires, that they indignations.
+                  Evidentemente, o desenvolvimento contínuo de distintas formas
+                  de atuação promove a alavancagem das diretrizes de
+                  desenvolvimento para o futuro.
                 </div>
               </div>
               {/* <!-- News Widget --> */}
               <div class='news-widget sidebar-widget'>
-                <div class='widget-title'>News & Updates</div>
+                <div class='widget-title'>Novidades & Atualizações</div>
                 <div class='post-wrapper'>
                   <div class='image'>
                     <Link to='blog-details.html'>
                       <img src={News10} alt='' />
                     </Link>
                   </div>
-                  <div class='category'>Business Plans</div>
+                  <div class='category'>Novos planos</div>
                   <h4>
                     <Link to={'/blog-details'}>
-                      How to Manage Business’s <br />
-                      Online Reputation
+                      Veja novidades em <br />
+                      Planos de Saúde
                     </Link>
                   </h4>
                 </div>
@@ -99,22 +99,23 @@ class Index3 extends Component {
                       <img src={News11} alt='' />
                     </Link>
                   </div>
-                  <div class='category'>Marketing Stratergy</div>
+                  <div class='category'>Novas estratégias</div>
                   <h4>
                     <Link to={'/blog-details'}>
-                      Inside our Daily Routines as a <br />
-                      Good Consultant
+                      Veja os melhores serviços para
+                      <br />
+                      Aumentar produtividade de seu negócio
                     </Link>
                   </h4>
                 </div>
               </div>
               {/* <!-- Newsletter Widget --> */}
               <div class='newsletter-widget'>
-                <div class='widget-title'>Newsletter Subscription</div>
+                <div class='widget-title'>Receba as novidades</div>
                 <form action='#'>
-                  <input type='email' placeholder='Enter Email Address' />
+                  <input type='email' placeholder='Seu e-mail' />
                   <button class='theme-btn btn-style-one'>
-                    <span class='btn-title'>Subscribe Us</span>
+                    <span class='btn-title'>Inscreva-se</span>
                   </button>
                 </form>
               </div>
@@ -123,7 +124,7 @@ class Index3 extends Component {
         </section>
 
         {/* <!--Search Popup--> */}
-        <div id='search-popup' class='search-popup'>
+        {/* <div id='search-popup' class='search-popup'>
           <div class='close-search theme-btn'>
             <span class='flaticon-cancel'></span>
           </div>
@@ -173,7 +174,7 @@ class Index3 extends Component {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- Banner Section --> */}
         <HomeSlider3 />
@@ -186,10 +187,10 @@ class Index3 extends Component {
               <div class='row align-items-center'>
                 <div class='col-lg-5'>
                   <div class='sec-title text-right'>
-                    <div class='sub-title'>About Us</div>
+                    <div class='sub-title'>Fale Conosco</div>
                     <h2>
-                      We Work With <br />
-                      You To Address
+                      Por e-mail, <br />
+                      Telefone ou WhatsApp
                     </h2>
                   </div>
                 </div>
@@ -201,8 +202,14 @@ class Index3 extends Component {
                           <div class='icon'>
                             <img src={Icon19} alt='' />
                           </div>
-                          <h5>Phone Number</h5>
-                          <h2>+897 6765 754</h2>
+                          <h5>Telefone/ WhatsApp</h5>
+                          <a
+                            style={{ color: '#282828' }}
+                            target='_blank'
+                            href='https://api.whatsapp.com/send?phone=555511932828286038&text=Ol%C3%A1%2C%20Cura%20Salute.'
+                          >
+                            <h2>+55 11 93000-6038</h2>
+                          </a>
                         </div>
                       </div>
                       <div class='info-column col-md-6'>
@@ -210,8 +217,18 @@ class Index3 extends Component {
                           <div class='icon'>
                             <img src={Icon20} alt='' />
                           </div>
-                          <h5>Email Address</h5>
-                          <h2>info@webmail.com</h2>
+                          <h5>Email</h5>
+                          <a
+                            style={{ color: '#000' }}
+                            target='_blank'
+                            href='mailto:carvalho@curasalute.com.br'
+                          >
+                            <h2>
+                              carvalho
+                              <br />
+                              @curasalute.com.br
+                            </h2>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -239,10 +256,10 @@ class Index3 extends Component {
               <div class='col-lg-6'>
                 <div class='content-box ml-lg-3'>
                   <div class='sec-title'>
-                    <div class='sub-title'>Why Choose Us</div>
+                    <div class='sub-title'>Por que nos escolher?</div>
                     <h2>
-                      Why Should You <br />
-                      Choose Us ?
+                      Por que você deveria <br />
+                      escolher a Cura Salute
                     </h2>
                   </div>
                   <Tab.Container defaultActiveKey='first'>
@@ -252,17 +269,17 @@ class Index3 extends Component {
                     >
                       <Nav.Item>
                         <Nav.Link eventKey='first'>
-                          <span>Our Mission</span>
+                          <span>Nossa Missão</span>
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey='second'>
-                          <span>Our Vission</span>
+                          <span>Nossa Visão</span>
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey='third'>
-                          <span>Our Value</span>
+                          <span>Nossos Valores</span>
                         </Nav.Link>
                       </Nav.Item>
                     </Nav>
@@ -274,18 +291,15 @@ class Index3 extends Component {
                           </div>
                           <div class='text'>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur adipisici
-                              ng elit, sed do eiusmod tempor incididunt ut labo
-                              re et dolore magna aliqua. Ut enim ad minim veni
-                              am, quis nostrud exercitation ullamco.
+                              Caros amigos, a mobilidade dos capitais
+                              internacionais exige a precisão e a definição das
+                              formas de ação.
                             </p>
                             <p>
-                              Duis aute irure dolor in reprehenderit in
-                              voluptate velit esse cillum dolore eu fugiat nulla
-                              pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt
-                              mollit anim id est laborum. Sed ut perspiciatis
-                              unde omnis iste natus error
+                              As experiências acumuladas demonstram que o início
+                              da atividade geral de formação de atitudes
+                              obstaculiza a apreciação da importância das novas
+                              proposições.
                             </p>
                           </div>
                         </div>
@@ -297,18 +311,15 @@ class Index3 extends Component {
                           </div>
                           <div class='text'>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur adipisici
-                              ng elit, sed do eiusmod tempor incididunt ut labo
-                              re et dolore magna aliqua. Ut enim ad minim veni
-                              am, quis nostrud exercitation ullamco.
+                              Gostaria de enfatizar que a execução dos pontos do
+                              programa cumpre um papel essencial na formulação
+                              do retorno esperado a longo prazo.
                             </p>
                             <p>
-                              Duis aute irure dolor in reprehenderit in
-                              voluptate velit esse cillum dolore eu fugiat nulla
-                              pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt
-                              mollit anim id est laborum. Sed ut perspiciatis
-                              unde omnis iste natus error
+                              Não obstante, a estrutura atual da organização
+                              apresenta tendências no sentido de aprovar a
+                              manutenção das condições financeiras e
+                              administrativas exigidas.
                             </p>
                           </div>
                         </div>
@@ -320,18 +331,14 @@ class Index3 extends Component {
                           </div>
                           <div class='text'>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur adipisici
-                              ng elit, sed do eiusmod tempor incididunt ut labo
-                              re et dolore magna aliqua. Ut enim ad minim veni
-                              am, quis nostrud exercitation ullamco.
+                              Evidentemente, a expansão dos mercados mundiais
+                              nos obriga à análise do levantamento das variáveis
+                              envolvidas.
                             </p>
                             <p>
-                              Duis aute irure dolor in reprehenderit in
-                              voluptate velit esse cillum dolore eu fugiat nulla
-                              pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt
-                              mollit anim id est laborum. Sed ut perspiciatis
-                              unde omnis iste natus error
+                              É claro que o entendimento das metas propostas
+                              agrega valor ao estabelecimento do levantamento
+                              das variáveis envolvidas.
                             </p>
                           </div>
                         </div>
@@ -348,8 +355,8 @@ class Index3 extends Component {
         <section class='services-section-three'>
           <div class='auto-container'>
             <div class='sec-title text-center'>
-              <div class='sub-title'>Services</div>
-              <h2>What We Do</h2>
+              <div class='sub-title'>Serviços</div>
+              <h2>O que fazemos</h2>
             </div>
             <div class='row'>
               {/* <!-- Services Block One --> */}
@@ -359,10 +366,10 @@ class Index3 extends Component {
                     <span class='flaticon-assets'></span>
                     <span class='round-shape'></span>
                   </div>
-                  <h3>Business/Family Loan</h3>
+                  <h3>Consultoiria em Benefícios</h3>
                   <div class='text'>
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore.
+                    Do mesmo modo, a consolidação das estruturas exige a
+                    precisão e a definição dos índices pretendidos.
                   </div>
                 </div>
               </div>
@@ -373,10 +380,11 @@ class Index3 extends Component {
                     <span class='flaticon-life-insurance'></span>
                     <span class='round-shape'></span>
                   </div>
-                  <h3>Life/Car Insurance</h3>
+                  <h3>Seguro de Saúde, Vida ou Automóvel</h3>
                   <div class='text'>
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore.
+                    Assim mesmo, o aumento do diálogo entre os diferentes
+                    setores produtivos faz parte de um processo de gerenciamento
+                    dos índices pretendidos.
                   </div>
                 </div>
               </div>
@@ -387,10 +395,11 @@ class Index3 extends Component {
                     <span class='flaticon-consulting'></span>
                     <span class='round-shape'></span>
                   </div>
-                  <h3>Business Consultancy</h3>
+                  <h3>Treinamento e capacitação</h3>
                   <div class='text'>
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore.
+                    É importante questionar o quanto a necessidade de renovação
+                    processual é uma das consequências de todos os recursos
+                    funcionais envolvidos.
                   </div>
                 </div>
               </div>
@@ -400,20 +409,20 @@ class Index3 extends Component {
 
         {/* <!-- Insurance Calculate --> */}
         <section class='insurance-calculate'>
-          <div class='big-title'>Insurance</div>
+          <div class='big-title'>Calculadora de Seguros</div>
           <div class='auto-container'>
             <div class='wrapper-box'>
               <div
                 class='shape'
                 style={{ backgroundImage: 'url(' + map1 + ')' }}
               ></div>
-              <h1>Life Insurance Quote</h1>
+              <h1>Calculadora de Seguros</h1>
               <div class='price'>
-                <span>$10000</span>
-                <span>$20000</span>
-                <span>$30000</span>
-                <span>$40000</span>
-                <span>$50000</span>
+                <span>R$10.000</span>
+                <span>R$20.000</span>
+                <span>R$30.000</span>
+                <span>R$40.000</span>
+                <span>R$50.000</span>
               </div>
               <div class='progress-box'>
                 <div class='bar'>
@@ -422,20 +431,20 @@ class Index3 extends Component {
               </div>
               <div class='lower-content'>
                 <div class='column'>
-                  <h5>Profit</h5>
-                  <h2>$35,000</h2>
+                  <h5>Economia de até</h5>
+                  <h2>70%</h2>
                 </div>
                 <div class='column'>
-                  <h5>Duration</h5>
-                  <h2>05 Mo.</h2>
+                  <h5>Cobertura ampliada</h5>
+                  <h2>Até 3x maior</h2>
                 </div>
                 <div class='column'>
-                  <h5>Monthly</h5>
-                  <h2>$7,080</h2>
+                  <h5>Mensalidades a partir de</h5>
+                  <h2>R$350</h2>
                 </div>
                 <div class='column'>
                   <Link to={'/#'} class='theme-btn btn-style-two'>
-                    <span class='btn-title'>Get A Quote</span>
+                    <span class='btn-title'>Simular</span>
                   </Link>
                 </div>
               </div>
@@ -449,8 +458,8 @@ class Index3 extends Component {
           <div class='case-tabs'>
             <div class='container-fluid'>
               <div class='sec-title text-center'>
-                <div class='sub-title'>Case Study</div>
-                <h2>Much Work Done</h2>
+                <div class='sub-title'>Nosso trabalho</div>
+                <h2>O que já fizemos</h2>
               </div>
               <div class='case-tab-wrapper'>
                 {/* <!--Tabs Content-->   */}
@@ -474,9 +483,9 @@ class Index3 extends Component {
             <GoogleMaps
               apiKey={'AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54'}
               style={{ height: '800px', width: '100%' }}
-              zoom={12}
-              center={{ lat: 37.4224764, lng: -122.0842499 }}
-              markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
+              zoom={14}
+              center={{ lat: -23.589775478121304, lng: -46.730949338073344 }}
+              markers={{ lat: -23.589775478121304, lng: -46.730949338073344 }} //optional -23.589775478121304, -46.730949338073344
             />
           </div>
         </section>
@@ -496,16 +505,16 @@ class Index3 extends Component {
                       <div class='icon'>
                         <span class='flaticon-email-6'></span>
                       </div>
-                      <h3>Email Address</h3>
+                      <h3>Email</h3>
                       <ul>
                         <li>
-                          <Link to={'/mailto:info@webmail.com'}>
-                            info@webmail.com
+                          <Link to={'/mailto:carvalho@curasalute.com.br'}>
+                            carvalho@curasalute
                           </Link>
                         </li>
                         <li>
-                          <Link to={'/mailto:info@webmail.com'}>
-                            jobs@exampleco.com
+                          <Link to={'/mailto:contato@curasalute.com.br'}>
+                            contato@curasalute.com.br
                           </Link>
                         </li>
                       </ul>
@@ -520,16 +529,16 @@ class Index3 extends Component {
                       <div class='icon'>
                         <span class='flaticon-call-1'></span>
                       </div>
-                      <h3>Phone Number</h3>
+                      <h3>Nossos números</h3>
                       <ul>
                         <li>
-                          <Link to={'/tel:+8976765654654'}>
-                            +897 676 5654 654
+                          <Link to={'/tel:+5511123456789'}>
+                            +55 11 123 456 789
                           </Link>
                         </li>
                         <li>
-                          <Link to={'/tel:+908(097)56476576'}>
-                            +908(097) 564 765 76
+                          <Link to={'/tel:+5511930006038'}>
+                            +55 11 93000-6038
                           </Link>
                         </li>
                       </ul>
@@ -544,11 +553,11 @@ class Index3 extends Component {
                       <div class='icon'>
                         <span class='flaticon-location'></span>
                       </div>
-                      <h3>Office Address</h3>
+                      <h3>Nosso endereço</h3>
                       <ul>
                         <li>
-                          12/A, Romania City Town Hall <br />
-                          New Joursey, UK
+                          R. Keisuke Koza, 46 <br />
+                          São Paulo - SP
                         </li>
                       </ul>
                     </div>
@@ -558,47 +567,47 @@ class Index3 extends Component {
             </div>
             <div class='contact-form-area'>
               <div class='sec-title text-center'>
-                <div class='sub-title'>Write Here</div>
-                <h2>Get In Touch</h2>
+                <div class='sub-title'>Fale com a gente</div>
+                <h2>Contato</h2>
               </div>
               {/* <!-- Contact Form--> */}
               <div class='contact-form'>
                 <form
                   method='post'
-                  action='http://azim.commonsupport.com/Finandox/sendemail.php'
+                  // action='http://azim.commonsupport.com/Finandox/sendemail.php'
                   id='contact-form'
                 >
                   <div class='row clearfix'>
                     <div class='col-md-6 form-group'>
-                      <label for='name'>Enter your name</label>
+                      <label for='name'>Seu nome</label>
                       <input
                         type='text'
                         name='username'
                         id='name'
-                        placeholder='Enter name here......'
+                        placeholder='Seu nome aqui......'
                         required=''
                       />
                       <i class='fas fa-user'></i>
                     </div>
 
                     <div class='col-md-6 form-group'>
-                      <label for='email'>Enter your email</label>
+                      <label for='email'>Seu email</label>
                       <input
                         type='email'
                         name='email'
                         id='email'
-                        placeholder='Enter email here......'
+                        placeholder='Seu email aqui......'
                         required=''
                       />
                       <i class='fas fa-envelope'></i>
                     </div>
 
                     <div class='col-md-12 form-group'>
-                      <label for='message'>Enter your message</label>
+                      <label for='message'>Sua mensagem</label>
                       <textarea
                         name='message'
                         id='message'
-                        placeholder='Enter message here......'
+                        placeholder='Sua mensagem aqui......'
                       ></textarea>
                       <i class='fas fa-edit'></i>
                     </div>
@@ -609,7 +618,7 @@ class Index3 extends Component {
                         type='submit'
                         name='submit-form'
                       >
-                        <span class='btn-title'>Get In Touch</span>
+                        <span class='btn-title'>Enviar</span>
                       </button>
                     </div>
                   </div>
@@ -626,8 +635,8 @@ class Index3 extends Component {
         <section class='news-section'>
           <div class='auto-container'>
             <div class='sec-title text-center'>
-              <div class='sub-title'>News</div>
-              <h2>News From Resource</h2>
+              <div class='sub-title'>Blog</div>
+              <h2>Nossas últimas atualizações</h2>
             </div>
             <div class='row'>
               {/* <!-- News Block One --> */}
@@ -643,23 +652,22 @@ class Index3 extends Component {
                     </Link>
                   </div>
                   <div class='lower-content'>
-                    <div class='category'>Business</div>
+                    <div class='category'>Seguros</div>
                     <ul class='post-meta'>
                       <li>
                         <Link to={'/#'}>
-                          <i class='far fa-calendar-alt'></i>24th March 2020
+                          <i class='far fa-calendar-alt'></i>08 de abril 2021
                         </Link>
                       </li>
                       <li>
                         <Link to={'/#'}>
-                          <i class='far fa-user'></i>By Admin
+                          <i class='far fa-user'></i>Por Carvalho
                         </Link>
                       </li>
                     </ul>
                     <h3>
-                      <Link to={'/blog-details'}>
-                        UX is best solution for your <br />
-                        business & make noise.
+                      <Link to={'/#'}>
+                        Consultor de Seguros de Saúde Avalia
                       </Link>
                     </h3>
                     <div class='text'>
@@ -682,22 +690,22 @@ class Index3 extends Component {
                     </Link>
                   </div>
                   <div class='lower-content'>
-                    <div class='category'>Business</div>
+                    <div class='category'>Seguros</div>
                     <ul class='post-meta'>
                       <li>
                         <Link to={'/#'}>
-                          <i class='far fa-calendar-alt'></i>26th March 2020
+                          <i class='far fa-calendar-alt'></i>08 de abril 2021
                         </Link>
                       </li>
                       <li>
                         <Link to={'/#'}>
-                          <i class='far fa-user'></i>By Admin
+                          <i class='far fa-user'></i>Por Carvalho
                         </Link>
                       </li>
                     </ul>
                     <h3>
-                      <Link to={'/blog-details'}>
-                        Business consultant is involved in the planning.
+                      <Link to={'/#'}>
+                        Consultor de Seguros de Saúde Avalia
                       </Link>
                     </h3>
                     <div class='text'>
@@ -720,22 +728,22 @@ class Index3 extends Component {
                     </Link>
                   </div>
                   <div class='lower-content'>
-                    <div class='category'>Business</div>
+                    <div class='category'>Seguros</div>
                     <ul class='post-meta'>
                       <li>
                         <Link to={'/#'}>
-                          <i class='far fa-calendar-alt'></i>28th March 2020
+                          <i class='far fa-calendar-alt'></i>08 de abril 2021
                         </Link>
                       </li>
                       <li>
                         <Link to={'/#'}>
-                          <i class='far fa-user'></i>By Admin
+                          <i class='far fa-user'></i>Por Carvalho
                         </Link>
                       </li>
                     </ul>
                     <h3>
-                      <Link to={'/blog-details'}>
-                        Business consultant is a professional who analyzes.
+                      <Link to={'/#'}>
+                        Consultor de Seguros de Saúde Avalia
                       </Link>
                     </h3>
                     <div class='text'>
@@ -759,26 +767,23 @@ class Index3 extends Component {
               <div class='row align-items-center'>
                 <div class='col-lg-6'>
                   <div class='sec-title light'>
-                    <div class='sub-title'>Call To Action</div>
+                    <div class='sub-title'>Contrate seu seguro</div>
                     <h2>
-                      We Waiting For <br />
-                      Your Response.
+                      Faça já <br />
+                      sua cotação
                     </h2>
                   </div>
                 </div>
                 <div class='col-lg-6'>
                   <form action='#'>
-                    <input
-                      type='email'
-                      placeholder='Enter your email address'
-                    />
+                    <input type='email' placeholder='Seu e-mail' />
                     <button
                       class='theme-btn btn-style-one'
                       type='submit'
                       name='submit-form'
                     >
                       <span class='btn-title'>
-                        <i class='fal fa-envelope'></i>Subscribe Now
+                        <i class='fal fa-envelope'></i>Inscreva-se agora
                       </span>
                     </button>
                   </form>

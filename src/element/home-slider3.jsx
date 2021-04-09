@@ -9,27 +9,27 @@ import image7 from './../assets/images/main-slider/7.jpg';
 
 const slides = [
     {
-        title: 'Making Your Business Idea',
-        btnLearn: "-- Learn More --",
-        finan: "We Take Care Of",
-        dox: "The Future",
-        btnService: "-- Our Services --",
+        title: 'Para o seu negócio',
+        btnLearn: "-- Veja mais --",
+        finan: "Nós cuidamos",
+        dox: "Do seu negócio",
+        btnService: "-- Nossos serviços --",
         image: image3,
     },
     {
-        title: 'Making Your Business Idea',
-        btnLearn: "-- Learn More --",
-        finan: "We Take Care Of",
-        dox: "The Future",
-        btnService: "-- Our Services --",
+        title: 'Para sua saúde',
+        btnLearn: "-- Veja mais --",
+        finan: "Nós cuidamos",
+        dox: "Do seu bem estar",
+        btnService: "-- Nossos planos --",
         image: image7,
     },
     {
-        title: 'Making Your Business Idea',
-        btnLearn: "-- Learn More --",
-        finan: "We Take Care Of",
-        dox: "The Future",
-        btnService: "-- Our Services --",
+        title: 'Para sua família',
+        btnLearn: "-- Veja mais --",
+        finan: "Nós cuidamos",
+        dox: "Da saúde da sua família",
+        btnService: "-- Veja produtos --",
         image: image3,
     },
 
@@ -42,7 +42,7 @@ class HomeSlider3 extends Component {
     render() {
         return (
             <>
-                <Slider className="slider-wrapper" duration="2000" autoplay>
+                <Slider className="slider-wrapper" autoplay={3000}>
                     {slides.map((slide, index) =>
                         <div key={index} className="slider-content" style={{ background: `url('${slide.image}') no-repeat center center` }}>
                             <div className="inner text-center inner-2">

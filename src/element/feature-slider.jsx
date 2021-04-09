@@ -8,23 +8,24 @@ import "slick-carousel/slick/slick-theme.css";
 
 import featurebg1 from './../assets/images/background/image-12.jpg';
 
+
 const Features_content = [
     {
         
-        subtitle: 'Family Matter',
-        heading1: 'Keep On Touch With',
-        heading2: 'Us For Update.',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
-        link: 'Our Services',
+        subtitle: 'Para sua família',
+        heading1: 'Os melhores planos',
+        heading2: 'Para sua família.',
+        text: 'Todavia, a mobilidade dos capitais internacionais apresenta tendências no sentido de aprovar a manutenção das novas proposições.',
+        link: 'Veja planos',
  
     },
     {
         
-        subtitle: 'Family Matter',
-        heading1: 'Keep On Touch With',
-        heading2: 'Us For Update.',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
-        link: 'Our Services',
+        subtitle: 'Para seu negócio',
+        heading1: 'Produtos de produtividade',
+        heading2: 'Para sua empresa.',
+        text: 'Gostaria de enfatizar que a consolidação das estruturas é uma das consequências das condições inegavelmente apropriadas.',
+        link: 'Veja produtos',
  
     },
 

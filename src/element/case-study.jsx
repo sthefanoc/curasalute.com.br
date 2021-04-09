@@ -11,38 +11,38 @@ import image24 from './../assets/images/gallery/gallery-24.jpg';
 const caseStudy_content = [
     {
         image: image24,
-        h5: 'Business Consultancy',
-        h2: 'Brixer Donald Company Busines',
+        h5: 'Consultoria em benefícios',
+        h2: 'Otimização de processos com seguro de vida e saúde.',
     },
     {
         image: image24,
-        h5: 'Business Consultancy',
-        h2: 'Brixer Donald Company Busines',
+        h5: 'Consultoria em benefícios',
+        h2: 'Otimização de processos com seguro de vida e saúde.',
     },
     {
         image: image24,
-        h5: 'Business Consultancy',
-        h2: 'Brixer Donald Company Busines',
+        h5: 'Consultoria em benefícios',
+        h2: 'Otimização de processos com seguro de vida e saúde.',
     },
     {
         image: image24,
-        h5: 'Business Consultancy',
-        h2: 'Brixer Donald Company Busines',
+        h5: 'Consultoria em benefícios',
+        h2: 'Otimização de processos com seguro de vida e saúde.',
     },
     {
         image: image24,
-        h5: 'Business Consultancy',
-        h2: 'Brixer Donald Company Busines',
+        h5: 'Consultoria em benefícios',
+        h2: 'Otimização de processos com seguro de vida e saúde.',
     },
     {
         image: image24,
-        h5: 'Business Consultancy',
-        h2: 'Brixer Donald Company Busines',
+        h5: 'Consultoria em benefícios',
+        h2: 'Otimização de processos com seguro de vida e saúde.',
     },
     {
         image: image24,
-        h5: 'Business Consultancy',
-        h2: 'Brixer Donald Company Busines',
+        h5: 'Consultoria em benefícios',
+        h2: 'Otimização de processos com seguro de vida e saúde.',
     }
 ]
 

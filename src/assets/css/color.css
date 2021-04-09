@@ -113,7 +113,8 @@
 .tab-btn-style-one .nav-item .nav-link.active,
 .service-block-one .icon .round-shape:after,
 .sticky-header .main-menu .navigation > li.current-menu-item > a {
-	background-image: linear-gradient(90deg, rgba(209,100,26,1) 0%, rgba(192,40,42,1) 100%);
+	/* background-image: linear-gradient(90deg, rgba(209,100,26,1) 0%, rgba(192,40,42,1) 100%); */
+    background-image: linear-gradient(90deg,#018EA9 0%, #018EA9 100%);
 }
 
 .btn-style-one .btn-title:before {
@@ -147,7 +148,8 @@
 .testimonial-section.style-two .owl-theme .owl-nav .owl-next:hover:before,
 .welcome-block-one:nth-child(1) .inner-box .read-more a:hover,
 .welcome-block-one:nth-child(3) .inner-box .read-more a:hover {
-	color: #d1641a;
+	/* color: #d1641a; */
+    color: #6ED9A1
 }
 
 .welcome-block-one:nth-child(2) .inner-box .read-more a:hover {

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import footerLogo from '../assets/images/footer-logo.png';
+// import footerLogo from '../assets/images/footer-logo.png';
+import footerLogo from '../assets/images/cura-salute-cores.png';
+
 import gallery01 from '../assets/images/gallery/gallery-1.jpg';
 import gallery02 from '../assets/images/gallery/gallery-2.jpg';
 import gallery03 from '../assets/images/gallery/gallery-3.jpg';
@@ -48,20 +50,16 @@ class Footer2 extends Component {
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <ul>
-                                                        <li><Link to={'/#'}>Home</Link></li>
-                                                        <li><Link to={'/#'}>About</Link></li>
-                                                        <li><Link to={'/#'}>Services</Link></li>
-                                                        <li><Link to={'/#'}>Portfolio</Link></li>
-                                                        <li><Link to={'/#'}>Pricing</Link></li>
-                                                        <li><Link to={'/#'}>Contact</Link></li>
+                                                        <li><Link to={'/#'}>Início</Link></li>
+                                                        <li><Link to={'/#'}>Sobre nós</Link></li>
+                                                        <li><Link to={'/#'}>Serviços</Link></li>
+                                                        <li><Link to={'/#'}>Produtos</Link></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <ul>
-                                                        <li><Link to={'/#'}>News</Link></li>
-                                                        <li><Link to={'/#'}>Press Release</Link></li>
-                                                        <li><Link to={'/#'}>Case Study</Link></li>
-                                                        <li><Link to={'/#'}>Terms</Link></li>
+                                                        <li><Link to={'/#'}>Blog</Link></li>
+                                                        <li><Link to={'/#'}>Nosso time</Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -72,7 +70,7 @@ class Footer2 extends Component {
                                 {/* <!--Column--> */}
                                 <div class="column col-lg-4">
                                     <div class="footer-widget instagram-widget">
-                                        <h3>Photo Showcase</h3>
+                                        <h3>Nossos valores</h3>
                                         <div class="inner-box">
                                             <div class="wrapper-box">
                                                 <div class="image">
@@ -125,7 +123,7 @@ class Footer2 extends Component {
                     {/* <!-- Footer Bottom --> */}
                     <div class="auto-container">				
                         <div class="footer-bottom">
-                            <div class="copyright">Copyright By<Link to={'/#'}>Webtend</Link> - 2020</div>
+                            <div class="copyright">Copyright By <a href="https://masteradin.com/" target="_blank">Masteradin</a> - 2021</div>
                         </div>
                     </div>
                 </footer>

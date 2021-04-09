@@ -15,54 +15,54 @@ import thumb6 from './../assets/images/resource/thumb-6.jpg'
 const Testimonial2_content = [
     {
         thumb: {thumb1},
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
+        author: 'Empresa 01',
+        designation: 'CEO',
+        title: 'Título da Avaliação',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
     },
     {
         thumb: {thumb2},
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
+        author: 'Empresa 01',
+        designation: 'CEO',
+        title: 'Título da Avaliação',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
     },
     {
         thumb: {thumb3},
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
+        author: 'Empresa 01',
+        designation: 'CEO',
+        title: 'Título da Avaliação',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
     },
     {
         thumb: {thumb4},
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
+        author: 'Empresa 01',
+        designation: 'CEO',
+        title: 'Título da Avaliação',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
     },
     {
         thumb: {thumb5},
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
+        author: 'Empresa 01',
+        designation: 'CEO',
+        title: 'Título da Avaliação',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
     },
     {
         thumb: {thumb6},
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
+        author: 'Empresa 01',
+        designation: 'CEO',
+        title: 'Título da Avaliação',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
 
@@ -88,8 +88,8 @@ class Testimonial2 extends Component {
                 <section class="testimonial-section  style-two" style={{ backgroundImage: "url(" + testimonialbg1 + ")" }}>
                     <div class="auto-container">
                         <div class="sec-title light">
-                            <div class="sub-title">Testimonials</div>
-                            <h2>Clients Feedback</h2>
+                            <div class="sub-title">Testemunhos</div>
+                            <h2>Feedback de clientes</h2>
                         </div>
                         <div class="row">
                             <div className="col-xl-12">
